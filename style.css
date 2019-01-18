@@ -5,12 +5,13 @@ body{
 
 
 .First{
-    width: 60px;
-    height:60;
+   width:65px;
+   height:60px;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
     box-shadow: 10px 10px 5px grey;
     transition: width 4s, height 2s, transform 1s;
+    
     
     
 }
