@@ -43,10 +43,10 @@ height:100px;
      height:60;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
-    box-shadow: 10px 10px 5px grey;
-    transition: width 4s, height 2s, transform 1s;
+    box-shadow: 10px 10px 5px grey; /* creates shadow for third letter */
+    transition: width 4s, height 2s, transform 1s; /* width increases for 4s, height increases for 2s, transformation occurs for 1 s */
 }
-.Third:hover{
+.Third:hover{ /* makes third letter transition work */
 width:100px;
 height:100px;
 }
@@ -56,11 +56,11 @@ height:100px;
     height:60;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
-    box-shadow: 10px 10px 5px grey;
-    transition: width 4s, height 2s, transform 1s;
+    box-shadow: 10px 10px 5px grey; /* creates shadow for fourth letter */
+    transition: width 4s, height 2s, transform 1s; /* width increases for 4s, height increases for 2s, transformation occurs for 1s */
 }
 
-.Fourth:hover{
+.Fourth:hover{ /*makes fourth letter transition work */
 width:100px;
 height:100px;
 
@@ -75,7 +75,7 @@ height:100px;
     box-shadow: 10px 10px 5px grey;
     transition: width 4s, height 2s, transform 1s;
 }
-.Fifth:hover{
+.Fifth:hover{ /*makes fifth letter transition work */
 width:100px;
 height:100px;
 }
@@ -84,13 +84,13 @@ height:100px;
     width:80px;
     height:80px;
     position:relative;
-    animation-name:note;
-    animation-duration:2s;
+    animation-name:note; /* name of animation */
+    animation-duration:2s; /*amount of time the animation will last*/
    
 }
 
-@keyframes note{
-    0% {
+@keyframes note{ /* allows animation to occur*/
+    0% { 
         left: 0px;
         top:0px;
     }
