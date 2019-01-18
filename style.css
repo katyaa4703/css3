@@ -1,0 +1,108 @@
+body{
+    
+    background-image:radial-gradient(circle, white,pink);
+}
+
+
+.First{
+    width: 60px;
+    height:60;
+    border: 6px solid pink;
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    box-shadow: 10px 10px 5px grey;
+    transition: width 4s, height 2s, transform 1s;
+    
+    
+}
+
+
+
+.First:hover{
+width:100px;
+height:100px;
+}
+
+     
+.Second{
+    width: 65px;
+    height:60;
+    border: 6px solid pink;
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    box-shadow: 10px 10px 5px grey;
+    transition: width 4s, height 2s, transform 1s;
+}
+.Second:hover{
+width:100px;
+height:100px;
+}
+
+.Third{
+    width: 55px;
+     height:60;
+    border: 6px solid pink;
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    box-shadow: 10px 10px 5px grey;
+    transition: width 4s, height 2s, transform 1s;
+}
+.Third:hover{
+width:100px;
+height:100px;
+}
+
+.Fourth{
+    width: 55px;
+    height:60;
+    border: 6px solid pink;
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    box-shadow: 10px 10px 5px grey;
+    transition: width 4s, height 2s, transform 1s;
+}
+
+.Fourth:hover{
+width:100px;
+height:100px;
+
+}
+
+.Fifth{
+   
+    width:60px;
+     height:60;
+    border: 6px solid pink;
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    box-shadow: 10px 10px 5px grey;
+    transition: width 4s, height 2s, transform 1s;
+}
+.Fifth:hover{
+width:100px;
+height:100px;
+}
+
+#blank{
+    width:80px;
+    height:80px;
+    position:relative;
+    animation-name:note;
+    animation-duration:2s;
+   
+}
+
+@keyframes note{
+    0% {
+        left: 0px;
+        top:0px;
+    }
+    
+   25%{
+       left:200px;
+       top:0px;
+   }
+   100% {
+       left:0px;
+       top:0px;
+   }
+}
+
+
+
+
