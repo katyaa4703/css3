@@ -73,7 +73,7 @@ height:100px;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1)); /*creates color gradient for letter background */
     box-shadow: 10px 10px 5px grey; 
-    transition: width 4s, height 2s, transform 1s;
+    transition: width 4s, height 2s, transform 1s; /* width increases for 4s, height increases for 2s, transformation occurs for 1s */
 }
 .Fifth:hover{ /*makes fifth letter transition work */
 width:100px;
