@@ -1,6 +1,6 @@
 body{
     
-    background-image:radial-gradient(circle, white,pink);
+    background-image:radial-gradient(circle, white,pink);  /*creates background color */
     
 }
 
@@ -10,7 +10,7 @@ body{
    height:60px;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px grey; /* creates shadow for first letter */
     transition: width 4s, height 2s, transform 1s;
     
     
@@ -19,7 +19,7 @@ body{
 
 
 
-.First:hover{
+.First:hover{ /*makes transition for first letter to work */
 width:100px;
 height:100px;
 }
@@ -33,7 +33,7 @@ height:100px;
     box-shadow: 10px 10px 5px grey;
     transition: width 4s, height 2s, transform 1s;
 }
-.Second:hover{
+.Second:hover{   /*makes second letter transition work */
 width:100px;
 height:100px;
 }
@@ -43,7 +43,7 @@ height:100px;
      height:60;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
-    box-shadow: 10px 10px 5px grey; /* creates shadow for third letter */
+    box-shadow: 10px 10px 5px grey; 
     transition: width 4s, height 2s, transform 1s; /* width increases for 4s, height increases for 2s, transformation occurs for 1 s */
 }
 .Third:hover{ /* makes third letter transition work */
@@ -56,7 +56,7 @@ height:100px;
     height:60;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
-    box-shadow: 10px 10px 5px grey; /* creates shadow for fourth letter */
+    box-shadow: 10px 10px 5px grey; 
     transition: width 4s, height 2s, transform 1s; /* width increases for 4s, height increases for 2s, transformation occurs for 1s */
 }
 
@@ -72,7 +72,7 @@ height:100px;
      height:60;
     border: 6px solid pink;
     background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px grey; 
     transition: width 4s, height 2s, transform 1s;
 }
 .Fifth:hover{ /*makes fifth letter transition work */
@@ -80,16 +80,16 @@ width:100px;
 height:100px;
 }
 
-#blank{
+#blank{             /*class for animation picture */
     width:80px;
     height:80px;
-    position:relative;
+    position:relative; /* musical note will be positioned according to where the original position is*/
     animation-name:note; /* name of animation */
     animation-duration:2s; /*amount of time the animation will last*/
    
 }
 
-@keyframes note{ /* allows animation to occur*/
+@keyframes note{ /* allows animation to occur. Animation happens from left to right and returns from right to left */
     0% { 
         left: 0px;
         top:0px;
