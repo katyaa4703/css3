@@ -9,7 +9,7 @@ body{
    width:65px;
    height:60px;
     border: 6px solid pink;
-    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1)); /*creates color gradient for letter background */
     box-shadow: 10px 10px 5px grey; /* creates shadow for first letter */
     transition: width 4s, height 2s, transform 1s;
     
@@ -29,7 +29,7 @@ height:100px;
     width: 65px;
     height:60;
     border: 6px solid pink;
-    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1)); /*creates color gradient for letter background */
     box-shadow: 10px 10px 5px grey;
     transition: width 4s, height 2s, transform 1s;
 }
@@ -42,7 +42,7 @@ height:100px;
     width: 55px;
      height:60;
     border: 6px solid pink;
-    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1)); /*creates color gradient for letter background */
     box-shadow: 10px 10px 5px grey; 
     transition: width 4s, height 2s, transform 1s; /* width increases for 4s, height increases for 2s, transformation occurs for 1 s */
 }
@@ -55,7 +55,7 @@ height:100px;
     width: 55px;
     height:60;
     border: 6px solid pink;
-    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1)); /*creates color gradient for letter background */
     box-shadow: 10px 10px 5px grey; 
     transition: width 4s, height 2s, transform 1s; /* width increases for 4s, height increases for 2s, transformation occurs for 1s */
 }
@@ -71,7 +71,7 @@ height:100px;
     width:60px;
      height:60;
     border: 6px solid pink;
-    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1));
+    background-image: linear-gradient(to right, rgba(160,0,0,0), rgba(99,0,0,1)); /*creates color gradient for letter background */
     box-shadow: 10px 10px 5px grey; 
     transition: width 4s, height 2s, transform 1s;
 }
